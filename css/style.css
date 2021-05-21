@@ -1,0 +1,99 @@
+#navbox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#fullsection {
+    width: 60%;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.navlink {
+    font-size: 25px;
+    margin: 20px;
+    text-decoration: none;
+}
+#sidebartop {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#topsections {
+    display: flex;
+}
+
+#sectionbot {
+    display: flex;
+}
+
+.box {
+    justify-content: space-around;
+    width: 80%;
+    align-items:center
+}
+
+#sectiontop2 {
+    justify-content: flex-end;
+    font-size: 25px;
+    margin: 0 0px 0 80px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+section > span + h1 + p {
+    font-size: 25px;
+    color:darkgrey;
+}
+
+section > span + h1 + p + p {
+    font-weight: 400;
+}
+
+#sectiontop1 > span {
+    color: #DEAA47;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+section.box > p {
+    font-size: 25px;
+    color: #C4C4C4;
+}
+
+section.box > span + h2 + span + p {
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+section.box >span + h2 {
+    font-size: 35px;
+}
+
+section#sidebartop > img + a {
+    color: #F6A721
+}
+
+.x {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mainimg {
+    margin: 50px 0 0 0 ;
+    width: 100%;
+    height: 700px;
+}
+
+body {
+    font-family: "Source Sans Pro";
+}
